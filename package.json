@@ -1,5 +1,5 @@
 {
-  "name": "@my-username/uikit",
+  "name": "@milkeshakeswap/uikit",
   "version": "0.17.0",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit"
+    "url": "https://github.com/vishalkumar905/milkshakeswap-uikit"
   },
   "license": "MIT",
   "scripts": {
