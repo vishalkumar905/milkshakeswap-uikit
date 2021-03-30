@@ -1,5 +1,5 @@
 {
-  "name": "@milkeshakeswap/uikit",
+  "name": "@vishalkr905/uikit",
   "version": "0.17.0",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
