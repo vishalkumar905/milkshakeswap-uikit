@@ -80,8 +80,5 @@
     "react-transition-group": "^4.4.1",
     "styled-system": "^5.1.5"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "author": "Vishal"
 }
