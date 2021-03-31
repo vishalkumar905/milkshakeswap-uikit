@@ -28,7 +28,8 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   padding-right: 16px;
   width: 100%;
   height: ${MENU_HEIGHT}px;
-  background-color: ${({ theme }) => theme.nav.background};
+  background: linear-gradient(102.58deg, #62D8EA 34.57%, #14ACCC 65.48%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-bottom: solid 2px rgba(133, 133, 133, 0.1);
   z-index: 20;
   transform: translate3d(0, 0, 0);

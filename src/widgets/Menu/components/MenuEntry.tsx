@@ -19,7 +19,7 @@ const rainbowAnimation = keyframes`
 `;
 
 const LinkLabel = styled.div<{ isPushed: boolean }>`
-  color: ${({ isPushed, theme }) => (isPushed ? theme.colors.textSubtle : "transparent")};
+  color: ${({ isPushed, theme }) => (isPushed ? "#141259" : "transparent")};
   transition: color 0.4s;
   flex-grow: 1;
 `;
@@ -30,11 +30,11 @@ const MenuEntry = styled.div<Props>`
   align-items: center;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: ${({ secondary }) => (secondary ? "0 32px" : "0 16px")};
-  font-size: ${({ secondary }) => (secondary ? "14px" : "16px")};
-  background-color: ${({ secondary, theme }) => (secondary ? theme.colors.background : "transparent")};
-  color: ${({ theme }) => theme.colors.textSubtle};
-  box-shadow: ${({ isActive, theme }) => (isActive ? `inset 4px 0px 0px ${theme.colors.primary}` : "none")};
-
+  font-size: ${({ secondary }) => (secondary ? "18px" : "20px")};
+  box-shadow: ${({ isActive, theme }) => (isActive ? `inset 5px 0px 0px #141259` : "none")};
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  font-family: Fredoka One;
+  color: #141259;
   a {
     display: flex;
     align-items: center;
